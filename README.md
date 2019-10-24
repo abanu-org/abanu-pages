@@ -10,11 +10,15 @@
 [github-license-link]: https://raw.githubusercontent.com/lonos-project/lonos/master/LICENSE.txt
 [![Join the chat at https://gitter.im/lonos-project/lonos](https://badges.gitter.im/lonos-project/lonos.svg)](https://gitter.im/lonos-project/lonos?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+## Getting the Sources
+
+Visit the official repository [https://github.com/lonos-project/lonos](https://github.com/lonos-project/lonos)
+
 ## Build instructions
 
 #### Quick Start (recommended)
 
-Visit [http://docs.lonos.io/en/latest/build.html](http://docs.lonos.io/en/latest/build.html)
+Follow these instructions: [http://docs.lonos.io/en/latest/build.html](http://docs.lonos.io/en/latest/build.html)
 
 #### Manually
 
@@ -35,8 +39,8 @@ Run it with `./lonosctl run qemu x86` or `./lonosctl run bochs x86`
 
 ## The technology behind this project
 
-- The most important part of the Lonos project is the [Mosa-Compiler](https://github.com/mosa/MOSA-Project), wich is written in pure C#. The Mosa-Compiler converts an already compiled Assembly (build via msbuild or xbuild, default compiler from .NET/Mono) into native Code.
-- build some requied Assembler-Code  and append it to the native binary. The Assembler code ist mostly used for early initalization.
+- The most important part of the Lonos project is the [Mosa-Compiler](https://github.com/mosa/MOSA-Project), which is written in pure C#. The Mosa-Compiler converts an already compiled Assembly (build via msbuild or xbuild, default compiler from .NET/Mono) into native Code.
+- build some required Assembler-Code  and append it to the native binary. The Assembler code is mostly used for early initialization.
 - Building the Operating System Disk Image, with Grub2 as Bootloader
 
 ## Status of the OS
